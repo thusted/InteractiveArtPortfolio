@@ -54,9 +54,11 @@ function Home() {
               <h4>ABOUT</h4>
               <div className="row">
                 <div className="col s12 m8 l8">
-                  <p className="left-align light">Web developer with a background in tech-based art and a passion for learning new technologies. Certificate from University of Oregon Coding Bootcamp in Full Stack Web Development with newly acquired skills in HTML5, CSS3,
-                  JavaScript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS. Extensive experience with custom interface design for interactive art installations, utilizing microprocessors and sensors. Through the creation of immersive art environments, I have developed a keen sense for anticipating different ways users interact with various interfaces. I integrate that knowledge into my work and am committed to approaching any project with innovation and creativity.</p>
-                  <p className="left-align light">I am currently open to work and am always interested in collaborating with other coders and artists, so please don't hesitate to reach out to me at <a style={{padding:0}} href="." onClick={composeEmail}>tiana.husted@gmail.com</a>.</p>
+                  <p className="left-align light">Tiana Husted is an interactive installation artist, electroacoustic music composer, and sound designer based out of Eugene, Oregon. She received her Bachelor’s degree in Music Technology from the University of Oregon where she focused on creating both aurally and visually immersive environments through sensor-based art. This was the genesis of her fascination with stimulating the senses.
+                  <br/><br/>
+                  In 2018, she co-founded the all female-led collective, House of Strange Rituals. With this collective, she began working on large-scale installations and in 2019 was awarded the Black Rock City Honoraria grant by Burning Man. House of Strange Rituals built “The Dollhouse,” a life-size two-story interactive Victorian home, equipped with four rooms. Each room had interactive various elements to encourage participants to dive in to the narrative being told by the artists. Tiana has also shown work across Oregon at events such as Wilsonville Festival of Arts (2018), Manual Experience at the Hult Center (2020), and BEAM (2020).
+                  <br/><br/>
+                  Her work is rooted deeply in the belief that technology functions as a pivotal element in creating multi-sensory experiences. She is committed to making art that electrifies the senses, creating artistic opportunities that challenge one-sided paradigms such as visual art simply meant to be looked at or musical performances simply meant to be listened to. She achieves this by calling upon the participation of users to truly bring a piece to life, and Tiana is dedicated to continually fostering this relationship in her work.</p>
                 </div>
                 <div className="col s12 m4 l4">
                   <img id="me" src={Me} alt="me"/>
@@ -77,20 +79,6 @@ function Home() {
           <br/>
           
           <div className="row">
-            <div className="col s12 m6 l6">
-              <Project2 href="#modal1" id="modal1" imgSrc={Alertify}title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." modalDescription="Alertify can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker. User will sign up to create an account. Once created, they can login to provide an emergency contact to be alerted if an emergency situation. Within their login, they have a red button to press (Alertify) that sends out a text to their contact with current location to be found with." imageArray={alertifyImages} tech={["HTML", "CSS","JavaScript", "JQuery", "NodeJS", "Sequelize","Passport","BCrypt", "Quick Easy SMS API"]} links={["https://alertifynow.herokuapp.com/", "https://github.com/thusted/Alertify"]}/>
-
-              <button className="btn-large hoverable">
-                <Link
-                  style={{color:"white"}} 
-                  to="/webdevelopment"
-                  className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
-                >
-                  ALL WEB DEVELOPEMENT PROJECTS
-                </Link>
-              </button>
-            </div>
-
             <div className="col s12 m6 l6">
               <Project2 href="#modal2" id="modal2" imgSrc={DollhouseBack} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." modalDescription="Modeled after a turn of the century Victorian home, The Dollhouse was a piece comissioned for and featured at Burning Man 2019. The back side of the home had the illusion of being completely exposed to open playa, but was enclosed with clear acrylic paneling. This allowed citizens of Black Rock City to see the illuminated structure, and the participants within, from afar. There are two stories, each with two rooms, conventional to the Victorian era: ballroom, kitchen, bathroom, and bedroom. Art pieces in the home include photographs and paintings of a family long past, ghostly porcelain dolls, oddities, remnants of a seance gone wrong, an infinity mirror, and window etchings, all of which react to human touch and/or presence. We hoped to create an ethereal world on playa, captivating and enticing people to play and discover more secrets within." imageArray={dollhouseImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Kyma", "MadMapper", "Capacitive Touch Sensors","Servo Motors", "GameTrak", "PPG Heart Sensor", "Relay Modules"]} links={["https://www.youtube.com/watch?v=W9TY_xQfr4Y&t=23s", "https://www.youtube.com/watch?v=FfcdDc0tSdU"]}/>
 
