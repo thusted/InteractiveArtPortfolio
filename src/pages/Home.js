@@ -75,7 +75,7 @@ function Home() {
 
       <div className="container">
         <div className="section">
-          <Header title="FEATURED PROJECTS"/>
+          <Header title="RECENT WORK"/>
           <br/>
           
           <div className="row">
