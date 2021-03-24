@@ -9,11 +9,6 @@ import "./pageStyle.css";
 import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
 import Dollhouse2 from "../images/dollhouse2.jpg";
-import Alertify from "../images/alertify.jpeg";
-import AlertifyLogin from "../images/alertifyLogin.jpeg";
-import AlertifySignIn from "../images/alertifySignIn.jpeg";
-import AlertifySignUp from "../images/alertifySignUp.jpeg";
-import AlertifyTracker from "../images/alertifyTracker.jpeg";
 import DollhouseBack from "../images/dollhouseBack.jpeg";
 import Dollhouse3 from "../images/dollhouse3.jpg";
 import Dollhouse from "../images/dollhouse.jpeg";
@@ -29,7 +24,6 @@ import Project from "../components/Project";
 import Project2 from "../components/Project2";
 
 //Image Arrays
-const alertifyImages = [Alertify, AlertifyLogin, AlertifySignIn, AlertifySignUp, AlertifyTracker];
 const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack, DollhouseDesert, DollhouseHeart, DollhousePig, DollhouseTable];
 
 function Home() {
