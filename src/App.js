@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 
 // Importing pages
 import Home from "./pages/Home";
-import WebDev from "./pages/WebDev";
 import InteractiveArt from "./pages/InteractiveArt";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/webdevelopment" component={WebDev} />
           <Route exact path="/interactiveart" component={InteractiveArt} />
         </Router>
         <Footer/>
