@@ -39,7 +39,7 @@ function Home() {
     
   return (
     <div>
-      <Header title="TIANA HO'OLANA HUSTED" subtitle="FULL STACK WEB DEVELOPER • TECH-BASED ARTIST"/>
+      <Header title="TIANA HO'OLANA HUSTED"/>
       <br/>
 
       <div id="index-banner" className="parallax-container">
