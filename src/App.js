@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 
 // Importing pages
 import Home from "./pages/Home";
-import InteractiveArt from "./pages/InteractiveArt";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/interactiveart" component={InteractiveArt} />
         </Router>
         <Footer/>
       </div>
