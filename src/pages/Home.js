@@ -40,6 +40,13 @@ import BinariesWall from "../images/binariesWall.jpeg";
 import BinariesWiring from "../images/binariesWiring.jpeg";
 import Beat from "../images/lumenCordis.jpeg";
 import BeatClose from "../images/lumenCordisClose.jpeg";
+import Blink from "../images/blink.JPG";
+import Blink2 from "../images/blink2.jpeg";
+import Blink3 from "../images/blink3.JPG";
+import Blink4 from "../images/blink4.jpg";
+import Blink5 from "../images/blink5.JPG";
+import Blink6 from "../images/blink6.jpeg";
+
 
 //Image Arrays
 const movingDollsImages = [MovingDolls, MovingDollsCabinet, MovingDollsGallery];
@@ -48,6 +55,7 @@ const sonicStepsImages = [SonicSteps, SonicKids, SonicTallKid, SonicBuild, Sonic
 const particlesImages = [Particles, ParticleBoxes, ParticlesCircuit];
 const binariesImages = [Binaries, BinariesClose, BinariesMakey, BinariesWall, BinariesWiring];
 const beatImages = [Beat, BeatClose];
+const blinkImages = [Blink, Blink2, Blink3, Blink4, Blink5, Blink6];
 
 function Home() {
   useEffect(() => {
@@ -76,14 +84,14 @@ function Home() {
               <h3><i className="mdi-content-send brown-text"></i></h3>
               <h4>ABOUT ME</h4>
               <div className="row">
-                <div className="col s12 m8 l8">
+                <div className="col s12 m6 l6">
                   <p className="left-align light">Tiana Husted is an interactive installation artist, electroacoustic music composer, and sound designer based out of Eugene, Oregon. She received her Bachelor’s degree in Music Technology from the University of Oregon where she focused on creating both aurally and visually immersive environments through sensor-based art. This was the genesis of her fascination with stimulating the senses.
                   <br/><br/>
-                  In 2018, she co-founded the all female-led collective, House of Strange Rituals. With this collective, she began working on large-scale installations and in 2019 was awarded the Black Rock City Honoraria grant by Burning Man. House of Strange Rituals built “The Dollhouse,” a life-size two-story interactive Victorian home, equipped with four rooms. Each room had interactive various elements to encourage participants to dive in to the narrative being told by the artists. Tiana has also shown work across Oregon at events such as Wilsonville Festival of Arts (2018), Manual Experience at the Hult Center (2020), and BEAM (2020).
+                  In 2018, she co-founded the all female-led collective, House of Strange Rituals. With this collective, she began working on large-scale installations and in 2019 was awarded the Black Rock City Honoraria grant by Burning Man. House of Strange Rituals built “The Dollhouse,” a life-size two-story interactive Victorian home with four rooms. Each room had interactive various elements to encourage participants to dive in to the narrative being told by the artists. 
                   <br/><br/>
                   Her work is rooted deeply in the belief that technology functions as a pivotal element in creating multi-sensory experiences. She is committed to making art that electrifies the senses, creating artistic opportunities that challenge one-sided paradigms such as visual art simply meant to be looked at or musical performances simply meant to be listened to. She achieves this by calling upon the participation of users to truly bring a piece to life, and Tiana is dedicated to continually fostering this relationship in her work.</p>
                 </div>
-                <div className="col s12 m4 l4">
+                <div className="col s12 m6 l6">
                   <img id="me" src={Me} alt="me"/>
                 </div>
               </div>
