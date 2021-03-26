@@ -9,12 +9,14 @@ import "./pageStyle.css";
 import Header from "../components/Header";
 import Project from "../components/Project";
 import Project2 from "../components/Project2";
+import Footer from "../components/Footer";
 
 //Import images
-import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
-import Dollhouse2 from "../images/dollhouse2.jpg";
-import Dollhouse3 from "../images/dollhouse3.jpg";
+import Dollhouse1 from "../images/dollhouse1.jpeg";
+import Dollhouse2 from "../images/dollhouse2.jpeg";
+import Dollhouse3 from "../images/dollhouse3.jpeg";
+import Dollhouse4 from "../images/dollhouse4.jpeg";
 import Dollhouse from "../images/dollhouse.jpeg";
 import MovingDolls from "../images/movingDolls.jpeg";
 import MovingDollsCabinet from "../images/movingDollsCabinet.jpeg";
@@ -47,6 +49,10 @@ import Blink3 from "../images/blink3.JPG";
 import Blink4 from "../images/blink4.jpg";
 import Blink5 from "../images/blink5.JPG";
 import Blink6 from "../images/blink6.jpeg";
+import Github from "../images/github.png";
+import Linkedin from "..//images/linkedin.png";
+import ResumeIcon from "../images/resumeIcon.png";
+import Resume from "../images/webdevResume.pdf";
 
 
 //Image Arrays
@@ -83,7 +89,7 @@ function Home() {
           <div className="row">
             <div className="col s12 center">
               <h3><i className="mdi-content-send brown-text"></i></h3>
-              <h4 id="aboutMe">ABOUT ME</h4>
+              <h4 id="aboutMe">ABOUT</h4>
               <div className="row">
                 <div className="col s12 m6 l6">
                   <p className="left-align light">Tiana Husted is an interactive installation artist, electroacoustic music composer, and sound designer based out of Eugene, Oregon. She received her Bachelor’s degree in Music Technology from the University of Oregon where she focused on creating both aurally and visually immersive environments through sensor-based art. This was the genesis of her fascination with stimulating the senses.
@@ -91,10 +97,33 @@ function Home() {
                   In 2018, she co-founded the all female-led collective, House of Strange Rituals. With this collective, she began working on large-scale installations and in 2019 was awarded the Black Rock City Honoraria grant by Burning Man. House of Strange Rituals built “The Dollhouse,” a life-size two-story interactive Victorian home with four rooms. Each room had interactive various elements to encourage participants to dive in to the narrative being told by the artists. 
                   <br/><br/>
                   Her work is rooted deeply in the belief that technology functions as a pivotal element in creating multi-sensory experiences. She is committed to making art that electrifies the senses, creating artistic opportunities that challenge one-sided paradigms such as visual art simply meant to be looked at or musical performances simply meant to be listened to. She achieves this by calling upon the participation of users to truly bring a piece to life, and Tiana is dedicated to continually fostering this relationship in her work.</p>
-                </div>
+                </div>  
                 <div className="col s12 m6 l6">
                   <img id="me" src={Me} alt="me"/>
                 </div>
+              </div>
+              <div className="row">
+              <div className="col s12 m6 l6">
+                    <div className="pagesContainer">
+                      <div className="col s4 m4 l4">
+                        <a href="https://github.com/thusted">
+                          <img className="hoverable" id="github" src={Github} alt="githubImg"/>
+                        </a>
+                      </div>
+
+                      <div className="col s4 m4 l4">
+                        <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
+                          <img className="hoverable" id="linkedin" src={Linkedin} alt="linkedImg"/>
+                        </a>
+                      </div>
+
+                      <div className="col s4 m4 l4">
+                        <a href={Resume}>
+                          <img className="hoverable" id="resume" src={ResumeIcon} alt="resumeImg"/>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -134,7 +163,13 @@ function Home() {
       <div className="parallax-container valign-wrapper">
         <div className="parallax"><img src={Dollhouse3} alt="Unsplashed background img 3"/></div>
       </div>
-    </div>
+      <h4 id="contact">CONTACT </h4>
+      <Footer/>
+
+      <div className="parallax-container valign-wrapper">
+        <div className="parallax"><img src={Dollhouse4} alt="Unsplashed background img 4"/></div>
+      </div>
+    </div>   
   );
 };
 

@@ -25,7 +25,7 @@ function Navbar() {
               <Link
                 to="#aboutMe"
               >
-                About Me
+                About
               </Link>
           </li>
           <li className="nav-item">
