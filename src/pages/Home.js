@@ -97,13 +97,8 @@ function Home() {
                   In 2018, she co-founded the all female-led collective, House of Strange Rituals. With this collective, she began working on large-scale installations and in 2019 was awarded the Black Rock City Honoraria grant by Burning Man. House of Strange Rituals built “The Dollhouse,” a life-size two-story interactive Victorian home with four rooms. Each room had interactive various elements to encourage participants to dive in to the narrative being told by the artists. 
                   <br/><br/>
                   Her work is rooted deeply in the belief that technology functions as a pivotal element in creating multi-sensory experiences. She is committed to making art that electrifies the senses, creating artistic opportunities that challenge one-sided paradigms such as visual art simply meant to be looked at or musical performances simply meant to be listened to. She achieves this by calling upon the participation of users to truly bring a piece to life, and Tiana is dedicated to continually fostering this relationship in her work.</p>
-                </div>  
-                <div className="col s12 m6 l6">
-                  <img id="me" src={Me} alt="me"/>
-                </div>
-              </div>
-              <div className="row">
-              <div className="col s12 m6 l6">
+
+                  <div className="col s12 m6 l6">
                     <div className="pagesContainer">
                       <div className="col s4 m4 l4">
                         <a href="https://github.com/thusted">
@@ -124,6 +119,26 @@ function Home() {
                       </div>
                     </div>
                   </div>
+                </div>  
+                <div className="col s12 m6 l6">
+                  <img id="me" src={Me} alt="me"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col s12 m12 l12">
+                  <div className="card body" id="contactCard">
+                    <form id="mail">
+                      <div className="form-group">
+                        <label for="msgInput">Don't Be Shy, Say Hi! Fill out the text box to send me an email.</label>
+                        <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
+                      </div>
+                      <br/>
+                      <button id="sendBtn" className="btn waves-effect" type="submit" name="action" onClick={composeEmail}>
+                        <i className="material-icons">send</i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
