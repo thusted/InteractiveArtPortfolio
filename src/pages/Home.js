@@ -13,10 +13,10 @@ import Footer from "../components/Footer";
 
 //Import images
 import Me from "../images/me.png";
-import Dollhouse1 from "../images/dollhouse1.jpeg";
-import Dollhouse2 from "../images/dollhouse2.jpeg";
-import Dollhouse3 from "../images/dollhouse3.jpeg";
-import Dollhouse4 from "../images/dollhouse4.jpeg";
+import Dollhouse1 from "../images/dollhouse1.jpg";
+import Dollhouse2 from "../images/dollhouse2.jpg";
+import Dollhouse3 from "../images/dollhouse3.jpg";
+import Dollhouse4 from "../images/dollhouse4.jpg";
 import Dollhouse from "../images/dollhouse.jpeg";
 import MovingDolls from "../images/movingDolls.jpeg";
 import MovingDollsCabinet from "../images/movingDollsCabinet.jpeg";
