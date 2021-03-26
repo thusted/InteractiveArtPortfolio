@@ -71,8 +71,10 @@ function Home() {
     M.AutoInit();
   })
 
-  const composeEmail = () => {
-    window.open(`mailto:tiana.husted@gmail.com`);
+  const composeEmail = (e) => {
+    e.preventDefault();
+    const body = document.getElementById("msgInput").value;
+    window.open(`mailto:tiana.husted@gmail.com?body=${body}`);
   };
     
   return (
