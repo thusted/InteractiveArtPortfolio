@@ -178,12 +178,6 @@ function Home() {
       <div className="parallax-container valign-wrapper">
         <div className="parallax"><img src={Dollhouse3} alt="Unsplashed background img 3"/></div>
       </div>
-      <h4 id="contact">CONTACT </h4>
-      <Footer/>
-
-      <div className="parallax-container valign-wrapper">
-        <div className="parallax"><img src={Dollhouse4} alt="Unsplashed background img 4"/></div>
-      </div>
     </div>   
   );
 };
