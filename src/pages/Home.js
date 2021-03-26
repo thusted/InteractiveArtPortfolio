@@ -71,7 +71,7 @@ function Home() {
     
   return (
     <div>
-      <Header title="TIANA HO'OLANA HUSTED"/>
+      <h4 id="home">TIANA HO'OLANA HUSTED</h4>
       <br/>
 
       <div id="index-banner" className="parallax-container">
@@ -83,7 +83,7 @@ function Home() {
           <div className="row">
             <div className="col s12 center">
               <h3><i className="mdi-content-send brown-text"></i></h3>
-              <h4>ABOUT ME</h4>
+              <h4 id="aboutMe">ABOUT ME</h4>
               <div className="row">
                 <div className="col s12 m6 l6">
                   <p className="left-align light">Tiana Husted is an interactive installation artist, electroacoustic music composer, and sound designer based out of Eugene, Oregon. She received her Bachelor’s degree in Music Technology from the University of Oregon where she focused on creating both aurally and visually immersive environments through sensor-based art. This was the genesis of her fascination with stimulating the senses.
@@ -107,9 +107,8 @@ function Home() {
 
       <div className="container">
         <div className="section">
-          <Header title="PAST PROJECTS"/>
+          <h4 id="pastProjects">PAST PROJECTS</h4>
           <br/>
-
           <div className="row">
             <Project2 href="#modal7" id="modal7" className="col s12 m4 l4" imgSrc={Blink} title="Blink" modalDescription="“Blink” is a collaborative piece between House of Strange Rituals and the newly formed AHFEMME. This interactive exhibit sits at the intersection of sculpture, nature, technology, fashion, and performance.  A surrealistic depiction of the natural world that elicits wonder. Inside of this magnified ecosystem you will find felted bees, honey hives, and giant poppy pods that awaken as the public pass by. Additionally, come visit during the March and April First Friday Artwalk to witness this dreamlike universe take on another dimension. Performers, transformed into Queen bees, will inhabit the space turning this fantasy into their honeycomb home. During a time when the outside world feels overwhelming, this mesmerizing universe invites participants to look and be captured by illusion. Buzz by, it will happen in a Blink." imageArray={blinkImages} tech={["Arduino Uno", "Arduino IDE", "Max/MSP", "Programmable Par Can Lights and custom DMX controller made with Max/MSP", "16 Channel PWM Servo Drivers", "Servo Motors", "3D Printer"]} links={["https://vimeo.com/529084961", "https://vimeo.com/529207125"]}/>
 
