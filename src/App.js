@@ -16,7 +16,8 @@ function App() {
       <div>
         <Router>
           <Navbar />
-          <Home />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/InteractiveArtPortfolio" component={Home} />
         </Router>
       </div>
     

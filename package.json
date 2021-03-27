@@ -1,8 +1,8 @@
 {
   "name": "interactiveartportfolio",
   "version": "1.0.0",
-  "description": "This is a portfolio to showcase my interactive artwork. Made with React and Materialize.",
-  "main": "index.js",
+  "private": true,
+  "homepage": "https://thusted.github.io/InteractiveArtPortfolio/",
   "dependencies": {
     "aos": "^2.3.4",
     "gh-pages": "^3.1.0",
@@ -13,9 +13,6 @@
     "react-router-hash-link": "^2.4.0",
     "react-scripts": "^3.4.3"
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
@@ -24,16 +21,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thusted/InteractiveArtPortfolio.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thusted/InteractiveArtPortfolio/issues"
-  },
-  "homepage": "https://github.com/thusted/InteractiveArtPortfolio",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
