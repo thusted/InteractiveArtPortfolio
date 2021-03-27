@@ -1,8 +1,8 @@
 {
-  "name": "react_portfolio",
+  "name": "interactiveartportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thusted.github.io",
+  "homepage": "https://thusted.github.io/InteractiveArtPortfolio/",
   "dependencies": {
     "@ciar4n/izmir": "^1.0.1",
     "@testing-library/jest-dom": "^4.2.4",
