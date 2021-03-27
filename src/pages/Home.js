@@ -52,7 +52,7 @@ import Blink6 from "../images/blink6.jpeg";
 import Github from "../images/github.png";
 import Linkedin from "..//images/linkedin.png";
 import ResumeIcon from "../images/resumeIcon.png";
-import Resume from "../images/webdevResume.pdf";
+import Resume from "../images/TianaHusted_Resume.pdf";
 
 
 //Image Arrays
