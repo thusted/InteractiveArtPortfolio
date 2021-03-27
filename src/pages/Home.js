@@ -100,7 +100,7 @@ function Home() {
                   <br/><br/>
                   Her work is rooted deeply in the belief that technology functions as a pivotal element in creating multi-sensory experiences. She is committed to making art that electrifies the senses, creating artistic opportunities that challenge one-sided paradigms such as visual art simply meant to be looked at or musical performances simply meant to be listened to. She achieves this by calling upon the participation of users to truly bring a piece to life, and Tiana is dedicated to continually fostering this relationship in her work.</p>
 
-                  <div className="col s12 m6 l6">
+                  <div className="col s12 m8 l8">
                     <div className="pagesContainer">
                       <div className="col s4 m4 l4">
                         <a href="https://github.com/thusted">
